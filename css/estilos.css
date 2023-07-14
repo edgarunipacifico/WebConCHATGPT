@@ -17,7 +17,7 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 60px;
-    color: #f9bc0c;
+    color: hsl(34, 87%, 47%);
   }
   
   section {
@@ -81,7 +81,34 @@ body {
     color: #aaa;
   }
 
- 
+ /*hero image*/
+ header {
+    position: relative;
+    height: 500px;
+  }
+  
+  .hero-image {
+    background-image: url(../img/reloj.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    color: #ffffff; /* Cambia el color del texto para que resalte */
+  }
   
   
   /* Otros estilos y personalizaciones */

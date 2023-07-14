@@ -110,7 +110,8 @@ body {
     color: #ffffff; /* Cambia el color del texto para que resalte */
   }
   
-  footer {
+/*footer*/
+footer {
     background-color: #222;
     color: #fff;
     padding: 20px 0;
@@ -120,16 +121,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Ajusta el orden vertical de los elementos */
   }
   
   .logo img {
-    width: 50px;
+    width: 250px;
     height: 50px;
+    margin-bottom: 10px; /* Agrega un margen inferior para separar el logo del correo */
   }
   
   .contacto p {
-    margin-left: 10px;
+    margin: 0; /* Elimina el margen por defecto para que el correo esté pegado al logo */
   }
+  
   /* Otros estilos y personalizaciones */
   /* Aquí puedes agregar estilos adicionales o personalizaciones según tus necesidades */
   

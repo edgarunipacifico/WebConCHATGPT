@@ -110,7 +110,26 @@ body {
     color: #ffffff; /* Cambia el color del texto para que resalte */
   }
   
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
   
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contacto p {
+    margin-left: 10px;
+  }
   /* Otros estilos y personalizaciones */
   /* Aquí puedes agregar estilos adicionales o personalizaciones según tus necesidades */
   
